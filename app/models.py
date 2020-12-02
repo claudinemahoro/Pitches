@@ -60,7 +60,7 @@ class Role(db.Model):
         return f'User {self.name}'
 
 class Pitch(db.Model):
-        __tablename__ = 'pitches'
+        __tablename__ = 'pitchess'
         
         id = db.Column(db.Integer,primary_key =True)
         title = db.Column(db.String(255),nullable=False)
